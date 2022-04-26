@@ -1,0 +1,17 @@
+
+‚
+java:S11303"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(¯ªàþ
+<
+java:S14523"&Remove usage of generic wildcard type.(¯ªàþ
+<
+java:S1452@"&Remove usage of generic wildcard type.(õï…Ú
+Q	java:S125N"<This block of commented-out lines of code should be removed.(±ø±¹
+7
+java:S1116V"Remove this empty statement.(Åñ­õþÿÿÿÿ
+P	java:S125W"<This block of commented-out lines of code should be removed.(ë‹Á
+Q	java:S125i"<This block of commented-out lines of code should be removed.(€·ƒ£
+Q	java:S125‰"<This block of commented-out lines of code should be removed.(Åâà
+R	java:S125"<This block of commented-out lines of code should be removed.(Žôëí
+W	java:S125—"<This block of commented-out lines of code should be removed.(¶Á‘ÿÿÿÿÿ
+j
+java:S2095ƒ"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(³Ù¼¹ûÿÿÿÿ

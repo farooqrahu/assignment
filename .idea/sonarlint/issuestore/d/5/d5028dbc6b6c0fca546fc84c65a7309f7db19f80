@@ -1,0 +1,15 @@
+
+Otypescript:S1128".Remove this unused import of 'ProductRequest'.(™žØÒþÿÿÿÿ
+Utypescript:S1128	"4Remove this unused import of 'ProductformComponent'.(¹Ä…Äþÿÿÿÿ
+Wtypescript:S1128"4Remove this unused import of 'CompanyformComponent'.(øø®Ó8ÔŸ‚õø/
+Ftypescript:S1186'"*Unexpected empty method 'ngAfterViewInit'.(‘¢éƒ
+^typescript:S15335"BReplace this "String" wrapper object with primitive type "string".(ÑÿÆ×
+<typescript:S1186K" Unexpected empty arrow function.(™ÍÚÍ
+utypescript:S3776O"TRefactor this function to reduce its Cognitive Complexity from 16 to the 15 allowed.(…”ùÅýÿÿÿÿ
+typescript:S1874v"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(À“îÙ
+‚typescript:S1874ˆ"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(Ü‚„‘
+‡typescript:S1874“"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(Þ¼¨¨üÿÿÿÿ
+typescript:S1874¢"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(Œ «B
+Ttypescript:S1854´"7Remove this useless assignment to variable "dialogRef".(Êƒàé
+ˆtypescript:S1874¾"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(ƒ¤38¨÷‚õø/
+Žtypescript:S1874É"ä'subscribe' is deprecated. Instead of passing separate callback arguments, use an observer argument. Signatures taking separate callback arguments will be removed in v8. Details: https://rxjs.dev/deprecations/subscribe-arguments(ÇõÊöþÿÿÿÿ8¨÷‚õø/

@@ -1,0 +1,78 @@
+
+\	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Â††‘
+z
+java:S2229x"_"loadUserByUsername's" @Transactional requirement is incompatible with the one for this method.(ƒÕÙüÿÿÿÿ
+A
+java:S1452V"&Remove usage of generic wildcard type.(ï¬ß¾üÿÿÿÿ
+<
+java:S1452`"&Remove usage of generic wildcard type.(äÛş†
+A
+java:S1452o"&Remove usage of generic wildcard type.(ØÄ«­úÿÿÿÿ
+Q	java:S125z"<This block of commented-out lines of code should be removed.(ÅóÙá
+B
+java:S1452˜"&Remove usage of generic wildcard type.(õò¨ùùÿÿÿÿ
+=
+java:S1452°"&Remove usage of generic wildcard type.(Û—øñ
+W	java:S125¿"<This block of commented-out lines of code should be removed.(“Úòâüÿÿÿÿ
+B
+java:S1452Æ"&Remove usage of generic wildcard type.(ÂšÿÃúÿÿÿÿ
+B
+java:S1452Ù"&Remove usage of generic wildcard type.(“ñÛçùÿÿÿÿ
+B
+java:S1452à"&Remove usage of generic wildcard type.(ã«Ù˜úÿÿÿÿ
+B
+java:S1452Š"&Remove usage of generic wildcard type.(«şø°ùÿÿÿÿ
+=
+java:S1452¯"&Remove usage of generic wildcard type.(™¨®ô
+<
+java:S1452³"&Remove usage of generic wildcard type.(ºøİq
+?
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å
+J
+java:S1128"5Remove this unused import 'java.io.FileOutputStream'.(˜«ªg
+L
+java:S1128"1Remove this unused import 'java.io.OutputStream'.(Ó ³ÿÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.nio.file.Files'.(‚ƒü
+F
+java:S1128"0Remove this unused import 'java.nio.file.Paths'.(áè°¯
+y
+java:S1128"^Remove this unused import 'org.springframework.security.authentication.AuthenticationManager'.(ğş–şÿÿÿÿ
+l
+java:S1128%"VRemove this unused import 'org.springframework.security.core.userdetails.UserDetails'.(ÊÁ¥
+a
+java:S1192„"JDefine a constant instead of duplicating this literal "Activated" 4 times.(òòÔÙ
+`
+java:S1192Y"KDefine a constant instead of duplicating this literal "ROLE_ADMIN" 3 times.(—ƒÚx
+A
+java:S5411š"*Use the primitive boolean expression here.(‡Ö…²
+A
+java:S5411"*Use the primitive boolean expression here.(Œ‰ÓŒ
+W
+java:S4973f"<Strings and Boxed types should be compared using "equals()".(ÁäÏåÿÿÿÿÿ
+S
+java:S4973È"<Strings and Boxed types should be compared using "equals()".(‚şÄÎ
+S
+java:S4973Í"<Strings and Boxed types should be compared using "equals()".(¬Á²á
+S
+java:S4973Ï"<Strings and Boxed types should be compared using "equals()".(äíû±
+;
+java:S17005"%Rename field "userDetailsServiceImpl"(¾Š÷Ã
+g
+java:S3655§"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Õ“ší
+g
+java:S3655±"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(È®©²
+l
+java:S3655ı"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰ÎÒ”úÿÿÿÿ
+_
+java:S3655À"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(Î‚£›
+l
+java:S3655Û"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰É¢ şÿÿÿÿ
+g
+java:S3655Ì"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‡¹‰¥
+l
+java:S3655ê"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(‰ÎÒ”úÿÿÿÿ
+]
+java:S3655«"FCall "jwt.isPresent()" or "!jwt.isEmpty()" before accessing the value.(ş©Ü—
+O
+java:S2589Í"8Remove this expression which always evaluates to "false"(¬Á²á

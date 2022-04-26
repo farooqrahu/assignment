@@ -1,0 +1,12 @@
+
+f
+java:S3305/"KInject this field value directly into "init", the only method that uses it.(Ë™´ºşÿÿÿÿ
+Q	java:S125b"<This block of commented-out lines of code should be removed.(Š—éÔ
+Q	java:S125j"<This block of commented-out lines of code should be removed.(¾Ó½
+7
+java:S1116z"Remove this empty statement.(ôŸìúÿÿÿÿ
+t
+java:S2293X"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùüä¾şÿÿÿÿ
+k
+java:S1192N"UDefine a constant instead of duplicating this literal "farahu2008@gmail.com" 3 times.(¸á½Ó
+e	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õ›~

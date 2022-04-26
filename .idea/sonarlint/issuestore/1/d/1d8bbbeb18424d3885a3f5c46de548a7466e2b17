@@ -1,0 +1,119 @@
+
+A
+java:S14529"&Remove usage of generic wildcard type.(”Ø‡şÿÿÿÿ
+<
+java:S1452R"&Remove usage of generic wildcard type.(¨ûº·
+A
+java:S1452Y"&Remove usage of generic wildcard type.(­í´˜ıÿÿÿÿ
+A
+java:S1452b"&Remove usage of generic wildcard type.(ÚÓç„üÿÿÿÿ
+W
+java:S1854{"<Remove this useless assignment to local variable "fileName".(³’Üûÿÿÿÿ
+
+java:S1130l"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(ãÒşK
+;
+java:S1452l"&Remove usage of generic wildcard type.(ãÒşK
+Q	java:S125z"<This block of commented-out lines of code should be removed.(…ä ş
+H
+java:S1481{"-Remove this unused "fileName" local variable.(³’Üûÿÿÿÿ
+V	java:S125|"<This block of commented-out lines of code should be removed.(–ï™ãşÿÿÿÿ
+W	java:S125—"<This block of commented-out lines of code should be removed.(¦¤°éÿÿÿÿÿ
+=
+java:S1452"&Remove usage of generic wildcard type.(õï…Ú
+R	java:S125«"<This block of commented-out lines of code should be removed.(±ø±¹
+3
+java:S1116²"Remove this empty statement.(ÒßÇÉ
+Q	java:S125³"<This block of commented-out lines of code should be removed.(ë‹Á
+R	java:S125Å"<This block of commented-out lines of code should be removed.(€·ƒ£
+Q	java:S125å"<This block of commented-out lines of code should be removed.(Åâà
+R	java:S125é"<This block of commented-out lines of code should be removed.(ôëí
+W	java:S125ó"<This block of commented-out lines of code should be removed.(¶Á‘ÿÿÿÿÿ
+=
+java:S1452€"&Remove usage of generic wildcard type.(®»…Ğ
+B
+java:S1452‡"&Remove usage of generic wildcard type.(‹¸€Àüÿÿÿÿ
+B
+java:S1452ª"&Remove usage of generic wildcard type.(šåñ¶øÿÿÿÿ
+B
+java:S1452²"&Remove usage of generic wildcard type.(€½³şúÿÿÿÿ
+B
+java:S1452¸"&Remove usage of generic wildcard type.(ñŒøÿÿÿÿ
+M
+java:S1172¿"6Remove this unused method parameter "categoryRequest".(¼ÄáŒ
+=
+java:S1452¿"&Remove usage of generic wildcard type.(¼ÄáŒ
+V
+java:S1172Å":Remove this unused method parameter "compCategoryRequest".(¾±µÒşÿÿÿÿ
+B
+java:S1452Å"&Remove usage of generic wildcard type.(¾±µÒşÿÿÿÿ
+B
+java:S1452Ì"&Remove usage of generic wildcard type.(ª¾íùúÿÿÿÿ
+B
+java:S1452Ô"&Remove usage of generic wildcard type.(¥™Ùúÿÿÿÿ
+B
+java:S1452Ú"&Remove usage of generic wildcard type.(µÆ—ùÿÿÿÿ
+L
+java:S1172á"5Remove this unused method parameter "companyRequest".(ˆÈ˜û
+=
+java:S1452á"&Remove usage of generic wildcard type.(ˆÈ˜û
+=
+java:S1452è"&Remove usage of generic wildcard type.(¬â¨å
+W	java:S125ë"<This block of commented-out lines of code should be removed.(ÍÄéğúÿÿÿÿ
+=
+java:S1452“"&Remove usage of generic wildcard type.(¥ÿóË
+=
+java:S1452¢"&Remove usage of generic wildcard type.(¥ĞÎğ
+I
+java:S1172²"2Remove this unused method parameter "cartRequest".(ã¼™ÿ
+=
+java:S1452²"&Remove usage of generic wildcard type.(ã¼™ÿ
+=
+java:S1452º"&Remove usage of generic wildcard type.(•À¥ÿ
+=
+java:S1452×"&Remove usage of generic wildcard type.(‚«õÓ
+B
+java:S1452ô"&Remove usage of generic wildcard type.(÷±¹¬ûÿÿÿÿ
+n
+java:S1192®"RDefine a constant instead of duplicating this literal "Error: empty cart" 4 times.(­ù’ªüÿÿÿÿ
+p
+java:S1192È"TDefine a constant instead of duplicating this literal "Error: invalid date" 4 times.(Ç¶Ô•úÿÿÿÿ
+w
+java:S1192©"[Define a constant instead of duplicating this literal "Error: user does not exist" 3 times.(Ûû§Áıÿÿÿÿ
+w
+java:S1192ñ"`Define a constant instead of duplicating this literal "Error: cart's user is not valid" 4 times.(“‰ÄÙ
+n
+java:S1192¬"XDefine a constant instead of duplicating this literal "Error: user has no cart" 3 times.(Ş¾ì
+F
+java:S1066Ç"/Merge this if statement with the enclosing one.(£ƒ”´
+K
+java:S1066ä"/Merge this if statement with the enclosing one.(À”Îıÿÿÿÿ
+W
+java:S4973G"<Strings and Boxed types should be compared using "equals()".(Ì³Şüÿÿÿÿ
+Y
+java:S2259ù"BA "NullPointerException" could be thrown; "user" is nullable here.(™®—
+j
+java:S2095ß"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(³Ù¼¹ûÿÿÿÿ
+g
+java:S3655–"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(æ¼¿é
+l
+java:S3655ù"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¾Æÿÿÿÿÿ
+g
+java:S3655Á"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Œ´Ë»
+g
+java:S3655Ş"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Œ´Ë»
+j
+java:S3655"NCall "product.isPresent()" or "!product.isEmpty()" before accessing the value.(ÙÆ„üÿÿÿÿ
+l
+java:S3655Î"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ïÆĞÿÿÿÿÿ
+g
+java:S3655€"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(¨ù¨Ì
+g
+java:S3655§"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(ƒ€˜Ô
+g
+java:S3655¾"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ú‡·™
+g
+java:S3655Û"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ú‡·™
+l
+java:S3655š"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Œ÷ƒØøÿÿÿÿ
+l
+java:S3655¬"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(õÉüÿÿÿÿ
