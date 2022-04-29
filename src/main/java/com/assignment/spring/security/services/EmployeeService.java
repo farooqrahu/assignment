@@ -78,6 +78,7 @@ public class EmployeeService {
 
   public ResponseEntity<?> addUpdateEmployee(EmployeeRequest employeeRequest) {
     userDetailsServiceImpl.checkAdmin();
+    String msg="Employee added successfully!";
     if (employeeRequest.getFirstName() == null || "".equals(employeeRequest.getFirstName()))
       return ResponseEntity.badRequest().body(new MessageResponse("Error: first name must not be empty"));
     if (employeeRequest.getLastName() == null || "".equals(employeeRequest.getLastName()))
@@ -89,9 +90,10 @@ public class EmployeeService {
       Optional<Employee> employeeFound = employeeRepository.findById(employeeRequest.getEmployeeId());
       if (employeeFound.isPresent())
         employee = updateEmployee(employeeFound.get(), employeeRequest);
+       msg="Employee updated successfully!";
     }
     employeeRepository.save(employee);
-    return ResponseEntity.ok(new MessageResponse("employee updated successfully!"));
+    return ResponseEntity.ok(new MessageResponse(msg));
   }
 
   private Employee updateEmployee(Employee employee, EmployeeRequest employeeRequest) {
