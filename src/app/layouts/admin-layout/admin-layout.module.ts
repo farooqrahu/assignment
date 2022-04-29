@@ -1,29 +1,27 @@
-import { NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http'; import { RouterModule } from '@angular/router';
-import { CommonModule } from '@angular/common';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {NgModule} from '@angular/core';
+import {HttpClientModule} from '@angular/common/http';
+import {RouterModule} from '@angular/router';
+import {CommonModule} from '@angular/common';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 
-import { ClipboardModule } from 'ngx-clipboard';
-import { MatInputModule } from "@angular/material/input";
-import { MatPaginatorModule } from "@angular/material/paginator";
-import { MatTableModule } from "@angular/material/table";
-import {
-  MatSortModule
-} from "@angular/material/sort";
-import { MatProgressSpinnerModule } from "@angular/material/progress-spinner";
-import { AdminLayoutRoutes } from './admin-layout.routing';
-import { DashboardComponent } from '../../pages/dashboard/dashboard.component';
-import { ProductsComponent } from '../../pages/products/products.component';
+import {ClipboardModule} from 'ngx-clipboard';
+import {MatInputModule} from "@angular/material/input";
+import {MatPaginatorModule} from "@angular/material/paginator";
+import {MatTableModule} from "@angular/material/table";
+import {MatSortModule} from "@angular/material/sort";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
+import {AdminLayoutRoutes} from './admin-layout.routing';
+import {DashboardComponent} from '../../pages/dashboard/dashboard.component';
+import {EmployeesComponent} from '../../pages/employees/employees.component';
 
-import { MatButtonModule } from '@angular/material/button';
-import { MatIconModule } from '@angular/material/icon';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatDialogModule } from '@angular/material/dialog';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatDialogModule} from '@angular/material/dialog';
 
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { UserProfileComponent } from 'src/app/pages/user-profile/user-profile.component';
-import {CategoriesComponent} from "../../pages/categories/categories.component";
-import {CompaniesComponent} from "../../pages/companies/companies.component";
+import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
+import {UserProfileComponent} from 'src/app/pages/user-profile/user-profile.component';
+import {MatCheckboxModule} from "@angular/material/checkbox";
 
 // import { ToastrModule } from 'ngx-toastr';
 
@@ -45,15 +43,14 @@ import {CompaniesComponent} from "../../pages/companies/companies.component";
     MatIconModule,
     MatFormFieldModule,
 
-    MatDialogModule
+    MatDialogModule, MatCheckboxModule
   ],
   declarations: [
     DashboardComponent,
     UserProfileComponent,
-    ProductsComponent,
-    CategoriesComponent,
-    CompaniesComponent,
+    EmployeesComponent
   ]
 })
 
-export class AdminLayoutModule { }
+export class AdminLayoutModule {
+}

@@ -1,8 +1,7 @@
-import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { LoginComponent } from 'src/app/pages/login/login.component';
-import { AuthService } from 'src/app/_services/auth.service';
-import { TokenStorageService } from 'src/app/_services/token-storage.service';
+import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
+import {AuthService} from 'src/app/_services/auth.service';
+import {TokenStorageService} from 'src/app/_services/token-storage.service';
 
 declare interface RouteInfo {
   path: string;
@@ -10,15 +9,11 @@ declare interface RouteInfo {
   icon: string;
   class: string;
 }
+
 export var adminROUTES: RouteInfo[] = [
-  // { path: '/dashboard', title: 'Dashboard',  icon: 'ni-tv-2 text-primary', class: '' },
-  //{ path: '/icons', title: 'Icons',  icon:'ni-planet text-blue', class: '' },
-  // { path: '/maps', title: 'Maps',  icon:'ni-pin-3 text-orange', class: '' },
-  { path: '/products', title: 'Products', icon: 'ni-bullet-list-67 text-red', class: '' },
-  { path: '/categories', title: 'Categories', icon: 'ni-bullet-list-67 text-red', class: '' },
-  { path: '/companies', title: 'Companies', icon: 'ni-bullet-list-67 text-red', class: '' },
-  { path: '/users', title: 'Users', icon: 'ni-bullet-list-67 text-red', class: '' },
-  // { path: '/shopping-carts', title: 'Shopping Carts', icon: 'ni-bullet-list-67 text-red', class: '' },
+  {path: '/dashboard', title: 'Dashboard', icon: 'ni-tv-2 text-primary', class: ''},
+  {path: '/employees', title: 'Employees', icon: 'ni-bullet-list-67 text-red', class: ''},
+  {path: '/users', title: 'Users', icon: 'ni-bullet-list-67 text-red', class: ''},
 
 ];
 export var ROUTES: RouteInfo[] = [
@@ -41,7 +36,8 @@ export class SidebarComponent implements OnInit {
   public islogged: boolean;
   profileimg: string;
 
-  constructor(private router: Router, private authService: AuthService, private tokenStorage: TokenStorageService) { }
+  constructor(private router: Router, private authService: AuthService, private tokenStorage: TokenStorageService) {
+  }
 
   ngOnInit() {
     this.islogged = this.tokenStorage.getUser() != null;
@@ -58,10 +54,11 @@ export class SidebarComponent implements OnInit {
 
     });
   }
+
   loadImage(): void {
     this.authService.getProfileImage().subscribe(
       data => {
-        this.profileimg =data.user.file;
+        this.profileimg = data.user.file;
       },
       err => {
         (err);
@@ -72,7 +69,7 @@ export class SidebarComponent implements OnInit {
   logout(): void {
     this.islogged = false;
     this.tokenStorage.signOut();
-      window.location.reload;
+    window.location.reload;
 
     this.router.navigate(['/login']);
   }

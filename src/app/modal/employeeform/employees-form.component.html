@@ -1,0 +1,34 @@
+<h1 mat-dialog-title>Employee</h1>
+<div mat-dialog-content>
+
+  <mat-form-field>
+    <p>First Name</p>
+    <input matInput  [(ngModel)]="data.firstName" cdkFocusInitial required>
+  </mat-form-field>
+  <mat-form-field>
+    <p>Last Name</p>
+    <input matInput  [(ngModel)]="data.lastName" required>
+  </mat-form-field>
+  <mat-form-field>
+    <p>Email</p>
+    <input matInput  [(ngModel)]="data.email" required>
+  </mat-form-field>
+  <mat-form-field>
+    <p>Phone Number</p>
+    <input matInput type="number"   mask="(000) 000-0000" placeholder="Ex. (000) 000-0000" [(ngModel)]="data.phoneNumber" required>
+  </mat-form-field>
+
+  <mat-form-field>
+    <p>Hire Dat</p>
+    <input matInput   mask="YYYY/MM/DD" [(ngModel)]="data.hireDat" required>
+  </mat-form-field>
+  <mat-form-field>
+    <p>Salary</p>
+    <input matInput  [(ngModel)]="data.salary" required>
+  </mat-form-field>
+</div>
+<p *ngIf="errors!=''" style="color:red;">{{errors}}</p>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button *ngIf="validate(data)" mat-button [mat-dialog-close]="data">Ok</button>
+</div>
