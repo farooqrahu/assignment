@@ -35,7 +35,7 @@ export class EmployeesFormComponent implements OnInit {
     }
     if (data.salary <= 0)
       this.errors += "Salary\n"
-   if(this.validateEmail(data.email)){
+   if(!this.validateEmail(data.email)){
      this.errors += "Email.\n";
    }
     return (this.errors == "")
